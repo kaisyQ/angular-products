@@ -1,0 +1,9 @@
+<div class="product-items">
+    <product-item 
+        *ngFor="let product of products" 
+        [title]="product.title"
+        [description]="product.description"
+        [image]="product.image"
+        [price]="product.price"
+    ></product-item>
+</div>

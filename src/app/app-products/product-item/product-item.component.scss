@@ -1,0 +1,23 @@
+.product-item-container {
+    max-width: 400px;
+    min-height: 300px;
+    text-align: center;
+    margin: 20px auto 40px auto;
+    border: 2px dotted #000;
+
+    button {
+        background-color: yellow;
+        margin: 10px 0;
+        height: 40px;
+        border-radius: 5px;
+    }
+
+    h3 {
+        padding-top: 15px;
+    }
+
+    img {
+        width: 20%;
+    }
+}
+

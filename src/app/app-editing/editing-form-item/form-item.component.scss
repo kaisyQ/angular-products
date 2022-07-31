@@ -1,0 +1,11 @@
+.form-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 15px 0;
+    span {
+        text-transform: capitalize;
+    }
+    input {
+        outline: 0;
+    }
+}

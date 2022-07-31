@@ -1,0 +1,12 @@
+<div class="form-container">
+    <h3>add product form</h3>
+    <form-item
+        *ngFor="let item of arrOfInputs; index as i"
+        [title]="item.title"
+        [placeholder]="item.placeholder"
+        [(result)]="arrOfResSbmt[i]"
+    >
+    </form-item>
+    <hr />
+    <button (click)="sbmtForm($event)">Create Product</button>
+</div>

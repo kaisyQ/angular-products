@@ -1,0 +1,11 @@
+<div class="product-item-container">
+    <div class="product-item">
+        <h3>{{ title }}</h3>
+        <div class="product-item-img">
+            <img [src]="image" alt="item-image">
+        </div>
+        <h5>{{ price }}</h5>
+        <button (click)="showDescription($event)">{{isDescriptionShowing ? 'Hide description' : 'Show description'}}</button>
+        <p *ngIf="isDescriptionShowing">{{ description }}</p>
+    </div>
+</div>
